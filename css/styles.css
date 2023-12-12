@@ -1,0 +1,123 @@
+
+/* default styles */
+html{
+box-sizing:border-box;
+}
+*,
+*::before,
+*::after{
+box-sizing:inherit;
+padding:0;
+margin:0;
+}
+
+/* general */
+a{
+display:block;
+padding:0.7rem;
+text-decoration: none;
+text-transform:capitalize;
+color:#000;
+font-size:18px;
+font-weight:600;
+}
+body{
+font-family: "Jost",sans-serif;
+}
+header,
+section,
+footer{
+padding:2rem 5%;
+}
+
+
+
+
+
+
+.nav-container{
+ display:flex;
+ justify-content: space-between;
+ align-items:center;
+}
+.logo-title{
+ color:#F40469;
+ font-weight:800;
+ font-size:32px;
+}
+.banner-section{
+ background: url(../images/banner-image.svg) 50%/cover no-repeat rgba(0, 0, 0, 0.30);
+ height:504px;
+ color:#fff;
+ display:flex;
+}
+.banner-contents{
+ margin:auto;
+}
+.banner-contents h3{
+ font-weight:400;
+ font-size:56px;
+ margin-bottom:1rem;
+
+}
+.banner-contents .form-field{
+background:#fff;
+border-radius:30px;
+position:relative;
+height:56px;
+}
+.banner-contents .form-field input{
+ display:block;
+ width:100%;
+ padding:0.7rem;
+ border-radius:inherit;
+ outline:none;
+ border:none;
+ /*border:1px solid #ccc;*/
+ height:56px;
+ /*text-align:center;*/
+ text-indent:141px;
+}
+.banner-contents .form-field .absolute{
+ position: absolute;
+}
+.banner-contents .form-field .button-container{
+right:0;
+top:0;
+}
+.banner-contents .form-field .button-container button{
+background:#F40469;
+padding:0.7rem;
+border-radius:0px 28px 28px 0px;
+display:block;
+color:#fff;
+outline:none;
+border:none;
+width:136px;
+height:56px;
+font-size:18px;
+font-weight:600;
+text-transform: capitalize;
+cursor:pointer;
+}
+.banner-contents .form-field .location{
+ top:0;
+ left:0;
+ color:#000;
+ height:56px;
+ border-radius:28px 0px 0px 28px;
+ /*line-height:56px;*/
+ width:140px;
+ display:flex;
+ /*flex-flow:row wrap;*/
+ align-items:center;
+ justify-content:space-around;
+ margin-left:0.5rem;
+ gap:1rem;
+ font-size:18px;
+ font-weight:600;
+}
+h4,p{
+color:red;
+border:1px solid blue;
+}
