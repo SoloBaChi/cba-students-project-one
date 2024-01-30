@@ -4,8 +4,8 @@ html{
 box-sizing:border-box;
 }
 *,
-*::before,
-*::after{
+*::after,
+*::before{
 box-sizing:inherit;
 padding:0;
 margin:0;
@@ -123,37 +123,43 @@ border:1px solid blue;
 }
 
 .Promotion{
-    width: 1069px; height: 592px; position: relative
+    width: 1069px; height: 592px; position: relative;
 }
 
 .TakeATasteComeJ{
-    width: 400px; left: 669px; top: 103px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 48px; font-family: Jost; font-weight: 400; line-height: 64px; letter-spacing: 0.30px; word-wrap: break-word
+    width: 400px; left: 669px; top: 103px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 48px; font-family: Jost; font-weight: 400; line-height: 64px; letter-spacing: 0.30px; word-wrap: break-word;
 }
 
 .InTheArtistSOwn{
-    width: 400px; left: 669px; top: 326px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 16px; font-family: Jost; font-weight: 400; line-height: 24px; letter-spacing: 0.30px; word-wrap: break-word
+    width: 400px; left: 669px; top: 326px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 16px; font-family: Jost; font-weight: 400; line-height: 24px; letter-spacing: 0.30px; word-wrap: break-word;
 }
 
 .Button{
-    width: 246px; height: 56px; left: 669px; top: 456px; position: absolute
+    width: 246px; height: 56px; left: 669px; top: 456px; position: absolute;
 }
 
 .Button > .Placeholder{
-    width: 246px; height: 56px; left: 0px; top: 0px; position: absolute; background: #FF006E; border-radius: 40px
+    width: 246px; 
+    height: 56px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FF006E; 
+    border-radius: 40px;
 }
 
 .Button1{
-    left: 25.42px; top: 16px; position: absolute; text-align: center; color: white; font-size: 21px; font-family: Jost; font-weight: 600; line-height: 24px; letter-spacing: 1px; word-wrap: break-word
+    left: 25.42px; top: 16px; position: absolute; text-align: center; color: white; font-size: 21px; font-family: Jost; font-weight: 600; line-height: 24px; letter-spacing: 1px; word-wrap: break-word;
 }
 
 .Images{
-    width: 605px; height: 591.44px; left: 0px; top: 0px; position: absolute
+    width: 605px; height: 591.44px; left: 0px; top: 0px; position: absolute;
 }
 .Ornament{
-    width: 439px; height: 415px; left: 83px; top: 78px; position: absolute
+    width: 439px; height: 415px; left: 83px; top: 78px; position: absolute;
 }
 .Ornament1{
-    width: 605px; height: 572px; left: 0px; top: 0px; position: absolute
+    width: 605px; height: 572px; left: 0px; top: 0px; position: absolute;
 }
 /* .Ornament2{
     width: 605px; height: 572px; left: 0px; top: 0px; position: absolute; border: 1px #F40469 solid
@@ -163,42 +169,88 @@ border:1px solid blue;
 } */
 
 .PopularOnNewYorkArea{
-    color: rgba(0, 0, 0, 0.85); font-size: 32px; font-family: Jost; font-weight: 400; line-height: 48px; letter-spacing: 0.30px; word-wrap: break-word
+    color: rgba(0, 0, 0, 0.85); font-size: 32px; font-family: Jost; font-weight: 400; line-height: 48px; letter-spacing: 0.30px; word-wrap: break-word;
 }
 .ViewAll{
-    text-align: right; color: rgba(0, 0, 0, 0.85); font-size: 18px; font-family: Jost; font-weight: 600; line-height: 24px; letter-spacing: 0.80px; word-wrap: break-word
+    text-align: right; color: rgba(0, 0, 0, 0.85); font-size: 18px; font-family: Jost; font-weight: 600; line-height: 24px; letter-spacing: 0.80px; word-wrap: break-word;
 }
 .Text{
-    width: 335px; height: 64px; position: relative
+    width: 335px; height: 64px; position: relative;
 }
 .IconDelivery{
-    width: 18px; height: 18px; left: 0px; top: 42px; position: absolute
+    width: 18px; height: 18px; left: 0px; top: 42px; position: absolute;
 }
 .IconTime{
-    width: 18px; height: 18px; left: 216px; top: 42px; position: absolute
+    width: 18px; height: 18px; left: 216px; top: 42px; position: absolute;
 }
 .Time{
-    left: 242px; top: 40px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 18px; font-family: Jost; font-weight: 400; line-height: 24px; word-wrap: break-word
+    left: 242px; top: 40px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 18px; font-family: Jost; font-weight: 400; line-height: 24px; word-wrap: break-word;
 }
 .DeliveryFee{
-    left: 26px; top: 40px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 18px; font-family: Jost; font-weight: 400; line-height: 24px; word-wrap: break-word
+    left: 26px; top: 40px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 18px; font-family: Jost; font-weight: 400; line-height: 24px; word-wrap: break-word;
 }
 .RestaurantName{
-    left: 0px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 24px; font-family: Jost; font-weight: 400; line-height: 36px; letter-spacing: 0.30px; word-wrap: break-word
+    left: 0px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.85); font-size: 24px; font-family: Jost; font-weight: 400; line-height: 36px; letter-spacing: 0.30px; word-wrap: break-word;
 }
 
 .hotel1{
-    border: 1px solid black;
-    float: left;
+    /* border: 1px solid teal; */
+    /* float: left; */
 }
 .hotel23{
-    border: 1px solid black;
-    float: inline-end;
+    /* border: 1px solid black; */
+    /* float: inline-end; */
 }
 .hotel45{
-    border: 1px solid black;
-    float: inline-start;
+    /* border: 1px solid black; */
+    /* float: inline-start; */
 }
 .PopularOnNewYork{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+}
+
+
+
+/* =====================================
+ New added/modified styles
+========================================*/
+img{
+width:100%;
+display:block;
+}
+.wrapper .inner-flex>*{
+margin-bottom:1rem;
+}
+
+
+
+/* for large desktop screen */
+@media(min-width:980px){
+
+/* target the wrapper */
+.wrapper{
+display:flex;
+flex-flow:row nowrap;
+gap:4%;
+}
+
+/* target the direct children of wrapper */
+.wrapper>:first-child{
+flex-basis:22%;
+}
+.wrapper>:last-child{
+flex-basis:100%;
+}
+
+/* target the inner-flex  containers */
+.wrapper .inner-flex{
+display:flex;
+flex-flow:row nowrap;
+gap:4%;
+}
+
+.wrapper .inner-flex>*{
+flex-basis:48%;
+}
+
 }

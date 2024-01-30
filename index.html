@@ -64,15 +64,20 @@
             <div class="PopularOnNewYorkArea">Popular on New York area</div>
         <div class="ViewAll"> View All</div>
         
-        <div class="hotel1">
-            <img class="Photo" style="width: 400px; height: 616px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel1.png" />
+       <!-- added a div called wrapper for the two containers -->
+       <div class="wrapper">
+        <!-- first child of the wrapper -->
+        <div class=" hotel1">
+            <div class="img-container">
+            <img class="Photo" style="height: 616px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel1.png" />
+            </div>
                 <div class="Text">
                     <div class="IconDelivery">
-                        <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px; position: absolute" src="images/iconDelivery.png" />
+                        <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px;" src="images/iconDelivery.png" />
                     </div>
                     
                     <div class="IconTime">
-                        <img class="CombinedShape" style="width: 13.50px; height: 13.50px; left: 2.25px; top: 2.25px; position: absolute" src="images/iconTime.png" />
+                        <img class="CombinedShape" style="width: 13.50px; height: 13.50px; left: 2.25px; top: 2.25px;" src="images/iconTime.png" />
                     </div>
                     
                     <div class="Time">10 - 15 mins</div>
@@ -81,41 +86,55 @@
                 </div>
         </div>
         
-        <div class="hotel23">
-            <img class="Photo" style="width: 400px; height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel2.png" />
+        <!--second child of the wrapper  -->
+        <div class="second-child">
+        <!-- first row -->
+        <div class="inner-flex">
+        <figure>
+            <div class="img-container">
+            <img class="Photo" style="height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel2.png" />
+            </div>
                 <div class="Text" >
                     <div class="IconDelivery">
-                        <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px; position: absolute" src="images/iconDelivery.png" />
+                        <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px;" src="images/iconDelivery.png" />
                     </div>
 
                     <div class="IconTime">
-                        <img class="CombinedShape" style="width: 13.50px; height: 13.50px; left: 2.25px; top: 2.25px; position: absolute" src="images/iconTime.png" />
+                        <img class="CombinedShape" style="width: 13.50px; height: 13.50px; left: 2.25px; top: 2.25px;" src="images/iconTime.png" />
                     </div>
 
                     <div class="Time">10 - 15 mins</div>
                     <div class="DeliveryFee">$ 9.99 Delivery Fee</div>
                     <div class="RestaurantName">Restaurant Name</div>
                 </div>
+         </figure>
         
-        
-            <img class="Photo" style="width: 400px; height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel3.png" />
+        <figure>
+            <div class="img-container">
+            <img class="Photo" style="height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel3.png" />
+            </div>
                 <div class="Text">
                     <div class="IconDelivery">
-                        <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px; position: absolute" src="images/iconDelivery.png" />
+                        <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px;" src="images/iconDelivery.png" />
                     </div>
 
                     <div class="IconTime">
-                        <img class="CombinedShape" style="width: 13.50px; height: 13.50px; left: 2.25px; top: 2.25px; position: absolute" src="images/iconTime.png" />
+                        <img class="CombinedShape" style="width: 13.50px; height: 13.50px; left: 2.25px; top: 2.25px;" src="images/iconTime.png" />
                     </div>
 
                     <div class="Time">10 - 15 mins</div>
                     <div class="DeliveryFee">$ 9.99 Delivery Fee</div>
                     <div class="RestaurantName">Restaurant Name</div>
                 </div>
-        </div>
-        
-        <div class="hotel45">
-            <img class="Photo" style="width: 400px; height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel4.png" />
+        </figure>
+      </div>
+
+        <!-- row -->
+        <div class="inner-flex">
+         <figure>
+            <div class="img-container">
+            <img class="Photo" style="height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel4.png" />
+             </div>
                 <div class="Text">
                     <div class="IconDelivery">
                         <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px; position: absolute" src="images/iconDelivery.png" />
@@ -129,9 +148,12 @@
                     <div class="DeliveryFee">$ 9.99 Delivery Fee</div>
                     <div class="RestaurantName">Restaurant Name</div>
                 </div>
-            
-        
-            <img class="Photo" style="width: 400px; height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel5.png" />
+            </figure>
+
+            <figure>
+            <div class="img-container">
+            <img class="Photo" style="height: 240px; background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 100%); border-radius: 32px" src="images/Hotel5.png" />
+            </div>
                 <div class="Text">
                 <div class="IconDelivery">
                     <img class="CombinedShape" style="width: 15px; height: 13.50px; left: 1.50px; top: 2.25px; position: absolute" src="images/iconDelivery.png" />
@@ -145,7 +167,13 @@
                 <div class="DeliveryFee">$ 9.99 Delivery Fee</div>
                 <div class="RestaurantName">Restaurant Name</div>
                 </div>
+            </figure>
         </div>
+        <!-- end of wrapper's second child -->
+        </div>
+
+        <!-- end of the of the wrapper -->
+       </div>
 </section>
 
     <!--Your code for other sections  -->
